@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DigiShop</string>
+    <string name="home">خانه</string>
+    <string name="category">دسته بندی</string>
+    <string name="profile">پروفایل</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
