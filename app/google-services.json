@@ -1,0 +1,164 @@
+{
+  "project_info": {
+    "project_number": "735559656174",
+    "firebase_url": "https://fir-test-4fafc.firebaseio.com",
+    "project_id": "fir-test-4fafc",
+    "storage_bucket": "fir-test-4fafc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735559656174:android:c9a5e37fd0b8bf64ccc9ff",
+        "android_client_info": {
+          "package_name": "com.example.digi_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735559656174-crlhb5al661hrdgjel1gbb4d95ijj40q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfiSSvWjdaKIG79uZvIZgoRU5tjz7dTeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735559656174-crlhb5al661hrdgjel1gbb4d95ijj40q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735559656174:android:7355dd1dd6ab70d0",
+        "android_client_info": {
+          "package_name": "com.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735559656174-qb1jaol4m1es5mlc4hcm1svbbojfsr7f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.firebase",
+            "certificate_hash": "8e0f8fa2bf31cb50208b48d008d47fb8be8f7e64"
+          }
+        },
+        {
+          "client_id": "735559656174-crlhb5al661hrdgjel1gbb4d95ijj40q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfiSSvWjdaKIG79uZvIZgoRU5tjz7dTeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735559656174-crlhb5al661hrdgjel1gbb4d95ijj40q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735559656174:android:487fff7b99ce3788",
+        "android_client_info": {
+          "package_name": "com.nativebasesample1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735559656174-crlhb5al661hrdgjel1gbb4d95ijj40q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfiSSvWjdaKIG79uZvIZgoRU5tjz7dTeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735559656174-crlhb5al661hrdgjel1gbb4d95ijj40q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735559656174:android:859dc4ecaf5d6694ccc9ff",
+        "android_client_info": {
+          "package_name": "com.navin.digishop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735559656174-crlhb5al661hrdgjel1gbb4d95ijj40q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfiSSvWjdaKIG79uZvIZgoRU5tjz7dTeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735559656174-crlhb5al661hrdgjel1gbb4d95ijj40q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735559656174:android:8e40d3883da05289",
+        "android_client_info": {
+          "package_name": "com.template3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735559656174-crlhb5al661hrdgjel1gbb4d95ijj40q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfiSSvWjdaKIG79uZvIZgoRU5tjz7dTeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735559656174-crlhb5al661hrdgjel1gbb4d95ijj40q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

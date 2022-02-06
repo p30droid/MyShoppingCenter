@@ -3,6 +3,7 @@ package com.navin.digishop
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
+import com.google.android.gms.ads.MobileAds
 import com.navin.digishop.databinding.ActivityMainBinding
 import com.navin.digishop.ui.main.adapter.TabsAdapter
 import com.navin.digishop.ui.main.category.CategoryFragment
@@ -18,6 +19,11 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        MobileAds.initialize(this) {}
+
+
+        //throw RuntimeException("Test Crash") // Force a crash
 
         binding.bottomBar.setOnItemSelectedListener {
 
