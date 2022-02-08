@@ -5,6 +5,10 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.google.android.gms.ads.MobileAds
 import com.navin.digishop.databinding.ActivityMainBinding
+import com.navin.digishop.di.sampleJava.DaggerUserComponent
+import com.navin.digishop.di.sampleJava.User
+import com.navin.digishop.di.sampleJava.UserComponent
+import com.navin.digishop.di.sampleJava.UserModule
 import com.navin.digishop.ui.main.adapter.TabsAdapter
 import com.navin.digishop.ui.main.category.CategoryFragment
 import com.navin.digishop.ui.main.home.HomeFragment
@@ -42,6 +46,20 @@ class MainActivity : AppCompatActivity() {
         val adapter = TabsAdapter(this , fragmentList)
 
         binding.pager.adapter = adapter
+
+
+        val component : UserComponent = DaggerUserComponent.builder()
+            .userModule(UserModule()).build()
+
+
+        component.provideUser().userContact = "Reza"
+        component.provideUser().deleteUserMail()
+
+
+
+
+
+
 
     }
 }
