@@ -20,4 +20,7 @@ interface IService {
     @GET("getCategories.php")
     fun getCategories() : Call<BaseModel>
 
+    @GET("home.php")
+    fun getHome() : Call<BaseModel>
+
 }

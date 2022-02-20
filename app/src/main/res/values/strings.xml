@@ -5,4 +5,7 @@
     <string name="profile">پروفایل</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="best_mobiles">برترین موبایل ها</string>
+    <string name="beauty">آرایشی و بهداشتی</string>
+    <string name="amazing_offer">پیشنهادات ویژه</string>
 </resources>
