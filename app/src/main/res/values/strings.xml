@@ -8,4 +8,17 @@
     <string name="best_mobiles">برترین موبایل ها</string>
     <string name="beauty">آرایشی و بهداشتی</string>
     <string name="amazing_offer">پیشنهادات ویژه</string>
+    <string name="add_cart">افزودن به سبد خرید</string>
+    <string name="toman">تومان</string>
+
+    <string name="fa_cog">&#xf013;</string>
+    <string name="fa_bars">&#xf0c9;</string>
+    <string name="fa_paper_plane">&#xf1d8;</string>
+    <string name="fa_search">&#xf002;</string>
+    <string name="fa_cogs">&#xf085;</string>
+    <string name="fa_info_circle">&#xf05a;</string>
+    <string name="fa_parking">&#xf540;</string>
+
+
+
 </resources>
