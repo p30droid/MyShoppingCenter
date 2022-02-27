@@ -2,6 +2,7 @@ package com.navin.digishop
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import com.google.android.gms.ads.MobileAds
 import com.navin.digishop.databinding.ActivityMainBinding
@@ -13,6 +14,11 @@ import com.navin.digishop.ui.main.adapter.TabsAdapter
 import com.navin.digishop.ui.main.category.CategoryFragment
 import com.navin.digishop.ui.main.home.HomeFragment
 import com.navin.digishop.ui.main.profile.ProfileFragment
+import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
+import io.reactivex.rxjava3.core.Observable
+import io.reactivex.rxjava3.core.Observer
+import io.reactivex.rxjava3.disposables.Disposable
+import io.reactivex.rxjava3.schedulers.Schedulers
 
 class MainActivity : AppCompatActivity() {
 
@@ -54,6 +60,30 @@ class MainActivity : AppCompatActivity() {
 
         component.provideUser().userContact = "Reza"
         component.provideUser().deleteUserMail()
+
+
+        Observable.just("one","two","three","four","five")
+            .subscribeOn(Schedulers.newThread())
+            .observeOn(AndroidSchedulers.mainThread())
+            .subscribe(object : Observer<String>{
+                override fun onSubscribe(d: Disposable) {
+                    Log.e("Observable" ,"onSubscribe")
+                }
+
+                override fun onNext(t: String) {
+                    Log.e("Observable" ,"onNext")
+                }
+
+                override fun onError(e: Throwable) {
+                    Log.e("Observable" ,"onError")
+                }
+
+                override fun onComplete() {
+                    Log.e("Observable" ,"onComplete")
+                }
+
+            })
+
 
 
 
