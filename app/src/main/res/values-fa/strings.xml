@@ -1,15 +1,15 @@
 <resources>
     <string name="app_name">DigiShop</string>
-    <string name="home">Home</string>
-    <string name="category">Category</string>
-    <string name="profile">Profile</string>
+    <string name="home">خانه</string>
+    <string name="category">دسته بندی</string>
+    <string name="profile">پروفایل</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="best_mobiles">Best Mobiles</string>
-    <string name="beauty">Beauty</string>
-    <string name="amazing_offer">Amazing Offer</string>
-    <string name="add_cart">Add to Cart</string>
-    <string name="toman">Toman</string>
+    <string name="best_mobiles">برترین موبایل ها</string>
+    <string name="beauty">آرایشی و بهداشتی</string>
+    <string name="amazing_offer">پیشنهادات ویژه</string>
+    <string name="add_cart">افزودن به سبد خرید</string>
+    <string name="toman">تومان</string>
 
     <string name="fa_cog">&#xf013;</string>
     <string name="fa_bars">&#xf0c9;</string>

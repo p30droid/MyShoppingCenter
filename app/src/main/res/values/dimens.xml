@@ -2,4 +2,5 @@
 <resources>
     <dimen name="elevation">8dp</dimen>
     <dimen name="margin_8">8dp</dimen>
+    <dimen name="titles_font">14sp</dimen>
 </resources>

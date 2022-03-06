@@ -1,5 +1,10 @@
 package com.navin.digishop
 
+import android.content.Context
+import android.content.ContextWrapper
+import android.content.Intent
+import android.content.res.Configuration
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -14,11 +19,18 @@ import com.navin.digishop.ui.main.adapter.TabsAdapter
 import com.navin.digishop.ui.main.category.CategoryFragment
 import com.navin.digishop.ui.main.home.HomeFragment
 import com.navin.digishop.ui.main.profile.ProfileFragment
+import com.navin.mylibrary.Utils
+//import com.navin.mynewapp.DashboardActivity
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.core.Observer
 import io.reactivex.rxjava3.disposables.Disposable
 import io.reactivex.rxjava3.schedulers.Schedulers
+import java.util.*
+import android.os.LocaleList
+
+
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -26,6 +38,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+
+
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -87,9 +102,25 @@ class MainActivity : AppCompatActivity() {
 
 
 
+        var util = Utils.getText("sdasd")
 
 
+       // var intent = Intent(applicationContext , DashboardActivity::class.java)
 
 
     }
+
+    override fun attachBaseContext(newBase: Context) {
+        super.attachBaseContext(ContextWrapper(newBase.setAppLocale("fa")))
+    }
+
+    fun Context.setAppLocale(language: String): Context {
+        val locale = Locale(language)
+        Locale.setDefault(locale)
+        val config = resources.configuration
+        config.setLocale(locale)
+        config.setLayoutDirection(locale)
+        return createConfigurationContext(config)
+    }
+
 }

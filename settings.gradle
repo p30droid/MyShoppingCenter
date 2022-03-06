@@ -10,3 +10,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "DigiShop"
 include ':app'
+include ':myLibrary'
+include ':mynewapp'
